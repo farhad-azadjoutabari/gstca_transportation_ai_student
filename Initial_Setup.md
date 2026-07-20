@@ -87,9 +87,9 @@ You should be able to see the files.
 ## Cell 4: Import help functions
 Example:
 ```python
-from helpers.data_loading import load_dataset 
-from helpers.preprocessing import clean_columns 
-from helpers.visualization import plot_distribution 
+from helper.data_read import read_csv_file 
+from helper.eda import categorical_summary 
+from helper.visualization import plot_categorical_map 
 
 print("Helper functions imported successfully.")
 ```
@@ -101,7 +101,7 @@ import os
 
 print(os.getcwd())
 print(os.listdir(REPOSITORY_PATH)) 
-print(os.listdir(f"{REPOSITORY_PATH}/helpers"))
+print(os.listdir(f"{REPOSITORY_PATH}/helper"))
 ```
 
 ## Cell 5: Install required packages
