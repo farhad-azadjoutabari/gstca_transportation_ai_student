@@ -1,0 +1,30 @@
+# Large local datasets
+data/
+
+# Local agent/tooling state
+.agents/
+.codex/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local outputs
+outputs/
+artifacts/
+*.log
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
