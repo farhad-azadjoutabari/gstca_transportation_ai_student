@@ -35,6 +35,19 @@ One method is:
 
 Opening a notebook from GitHub loads the notebook itself, but it does not necessarily place all repository helper files in the Colab runtime. Therefore, students must still run the repository setup cell.
 
+## Step 4: Save the notebook imediately
+When you open your notebook from GitHub, the first thing you should do is:
+
+***File** -> **Save a copy in Drive**
+
+You should rename it using a consistent format:
+
+```Team_1_Challenge_1_Working_Notebook.ipynb```
+
+The saved notebook will normally appear in:
+
+```My Drive/Colab Notebooks/```
+
 # Colab Setup Cells
 Place the following cells near the beginning of every challenge notebook.
 
