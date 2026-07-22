@@ -209,6 +209,8 @@ classes=[0]
 
 detects only people.
 
+you can find the list of all classes here in this link: [YOLO8 Classes](https://gist.github.com/rcland12/dc48e1963268ff98c8b2c4543e7a9be8)
+
 ---
 
 # Combining Detection with Depth
