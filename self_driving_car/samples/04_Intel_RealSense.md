@@ -67,7 +67,7 @@ Image properties:
 | Property | Value |
 |----------|-------|
 | Type | `numpy.ndarray` |
-| Color Format | **BGR** |
+| Color Format | **RGB** |
 | Channels | 3 |
 | Resolution | 640 × 480 |
 | Data Type | `uint8` |
